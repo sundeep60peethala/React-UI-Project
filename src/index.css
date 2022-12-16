@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #dff5ca;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bg-teal{
+  background-color: #205e5e;
+}
+.table tbody tr td{
+  font-weight: bold;
+}
+.bg-primary , .btn-primary{
+  background: linear-gradient(45deg,black, deepskyblue);
+}
+.bg-info , .btn-info{
+  background: linear-gradient(45deg,black, cadetblue);
+}
+.bg-secondary , .btn-secondary {
+  background: linear-gradient(45deg,black, mediumpurple);
+}
+.bg-success , .btn-success {
+  background: linear-gradient(45deg,black, #32b338);
+}
+.bg-warning , .btn-warning {
+  background: linear-gradient(45deg,black, lightcoral);
+}
+.bg-danger , .btn-danger {
+  background: linear-gradient(45deg,black, orangered);
 }
